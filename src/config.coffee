@@ -12,7 +12,9 @@ module.exports =
         systemSecret: process.env.MESH_SECRET || 'secret'
         authTokenSecret: process.env.AUTH_TOKEN || 'token'
 
-    endpoints: {}
+    endpoints: {
+        
+    }
 
     modules:
 
