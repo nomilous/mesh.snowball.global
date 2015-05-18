@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.12.4",
-    "freebase-mesh": "git+ssh://git@github.com:southbite/freebase-mesh.git"
+    "freebase-mesh": "git+https://github.com/southbite/freebase-mesh.git"
   },
   "bugs": {
     "url": "https://github.com/nomilous/mesh.snowball.global/issues"
