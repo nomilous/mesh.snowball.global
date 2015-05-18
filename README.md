@@ -1,2 +1,3 @@
 # mesh.snowball.global
-Example freebase mesh node.
+
+Example freebase-mesh node.
