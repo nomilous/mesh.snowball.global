@@ -23,7 +23,7 @@ module.exports =
                 type: 'async'
                 name: 'init'
                 parameters: [
-                    {name: 'config', required: true, value: {host: process.env.MESH_HOST || 'localhost', port: process.env.WEB_PORT || 3000}}
+                    {name: 'config', required: true, value: {host: '41.79.78.18', port: process.env.WEB_PORT || 3000}}
                     {name: 'callback', parameterType: 'callback'}
                 ]
                 callback:
