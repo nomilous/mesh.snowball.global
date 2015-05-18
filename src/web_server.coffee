@@ -8,20 +8,28 @@ module.exports.init = ({port, host}, callback) ->
 
     server = app.listen port, host, ->
 
+        running = true
+
         callback null, 
 
             startServer: (callback) ->
 
-                console.log 'start'
+                return callback null, 'Already running' if running
+
+                console.log 'start', new Date
 
                 server = app.listen port, host, ->
 
-                    callback null, 'started'
+                    running = true
+
+                    callback null, 'STARTED web server at http://mesh.snowball.global'
 
             stopServer: (callback) ->
 
-                console.log 'stop'
+                console.log 'stop', new Date
 
                 server.close ->
 
-                    callback null, 'stopped'
+                    running = false
+
+                    callback null, 'STOPPED web server at http://mesh.snowball.global'

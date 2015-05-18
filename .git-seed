@@ -15,7 +15,15 @@
       "packageManager": "npm",
       "remote.origin.url": "git@github.com:southbite/freebase-mesh.git",
       "HEAD": "refs/heads/master",
-      "version": "dc4a69d3ceb65c6b794e0156a2e376237f14e993"
+      "version": "61debef1bbba590d373d99800a00716fded9d7d3"
+    },
+    {
+      "root": false,
+      "workDir": "./node_modules/freebase-mesh/node_modules/freebase",
+      "packageManager": "npm",
+      "remote.origin.url": "git@github.com:southbite/freebase-primus.git",
+      "HEAD": "refs/heads/master",
+      "version": "4c3371fe00e246fceeefab3911ab49c0f05f3b2a"
     }
   ]
 }

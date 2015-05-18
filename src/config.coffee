@@ -4,7 +4,7 @@ module.exports =
 
     port: process.env.MESH_PORT || 3001
 
-    host: 'mesh.snowball.global'
+    host: process.env.MESH_HOST || 'localhost'
 
     dataLayer:
 
@@ -13,7 +13,7 @@ module.exports =
         authTokenSecret: process.env.AUTH_TOKEN || 'token'
 
     endpoints: {
-        
+
     }
 
     modules:
@@ -25,7 +25,7 @@ module.exports =
                 type: 'async'
                 name: 'init'
                 parameters: [
-                    {name: 'config', required: true, value: {host: process.env.MESH_HOST || 'localhost', port: process.env.WEB_PORT || 3000}}
+                    {name: 'config', required: true, value: {host: process.env.WEB_HOST || 'localhost', port: process.env.WEB_PORT || 3000}}
                     {name: 'callback', parameterType: 'callback'}
                 ]
                 callback:
