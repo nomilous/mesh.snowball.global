@@ -4,7 +4,7 @@ module.exports.init = ({port, host}, callback) ->
 
     app = express()
 
-    app.get '/', (req, res) -> res.sendStatus 200
+    app.get '/', (req, res) -> res.send "Humpty Dumpty looked doubtful. 'I'd rather see that done on paper,' he said."
 
     server = app.listen port, host, ->
 
