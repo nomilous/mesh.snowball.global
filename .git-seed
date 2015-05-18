@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "repos": [
+    {
+      "root": true,
+      "workDir": ".",
+      "packageManager": "npm",
+      "remote.origin.url": "git@github.com:nomilous/mesh.snowball.global.git",
+      "HEAD": "refs/heads/master",
+      "version": "ROOT_REPO_REF"
+    },
+    {
+      "root": false,
+      "workDir": "./node_modules/freebase-mesh",
+      "packageManager": "npm",
+      "remote.origin.url": "git@github.com:southbite/freebase-mesh.git",
+      "HEAD": "refs/heads/master",
+      "version": "dc4a69d3ceb65c6b794e0156a2e376237f14e993"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "mesh.snowball.global",
+  "version": "0.0.0",
+  "description": "Example freebase mesh node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nomilous/mesh.snowball.global.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.4",
+    "freebase-mesh": "git+ssh://git@github.com:southbite/freebase-mesh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nomilous/mesh.snowball.global/issues"
+  },
+  "homepage": "https://github.com/nomilous/mesh.snowball.global"
+}
