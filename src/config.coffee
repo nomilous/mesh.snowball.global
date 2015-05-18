@@ -44,7 +44,7 @@ module.exports =
             schema:
                 exclusive: true
                 methods: 
-                    startServer:
+                    "startServer":
                         parameters: [
                             name: "callback" 
                             type: "callback"
@@ -55,7 +55,7 @@ module.exports =
                                 {"name":"error", "type":"error"}
                                 {"name":"response"}
                             ]
-                    stopServer:
+                    "stopServer":
                         parameters: [
                             name: "callback" 
                             type: "callback"
