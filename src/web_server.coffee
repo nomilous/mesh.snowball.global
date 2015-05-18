@@ -26,6 +26,8 @@ module.exports.init = ({port, host}, callback) ->
 
             stopServer: (callback) ->
 
+                return callback null, 'Already stopped' unless running
+
                 console.log 'stop', new Date
 
                 server.close ->
